@@ -1,0 +1,75 @@
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+    font-weight:bold;
+}
+body{
+ background: black;
+ background: url("../images/notepad.png") no-repeat;
+ background-size: contain;
+ background-position: top;
+ font-family: 'Indie Flower', cursive;
+ width:90%;
+ height:500px;
+ color:rgba(108, 63, 21, 0.84);
+}
+button, input{
+   color:rgb(121, 22, 4);
+   background: url("");
+   height:50px;
+   border-radius: 4px;
+   border-style: outset;
+}
+footer{
+ margin: -3% 0 0 23%;
+}
+form{
+ height:50px;
+ width:25%;
+ margin-left: 25%;
+}
+h1{
+ color:rgba(108, 63, 21, 0.84);
+ font-size: 3em;
+ margin-left: 25%;
+}
+h4{
+ color:rgb(121, 22, 4);
+ font-size: 1.5em;
+ float: left;
+ margin: -15% 0 0 25%;
+}
+
+.blackQuill{
+ height:145px;
+ width: 41%;
+ margin-left: 58%;
+}
+ul{
+ -webkit-column-count: 2;
+
+ -moz-column-count: 2;
+
+ column-count: 2;
+ list-style-type: circle;
+ height: 400px;
+ overflow: hidden;
+ margin-top: 1%;
+}
+.btnContainer{
+ margin:0 0 0 60%;
+}
+
+.completedItem{
+ text-decoration: line-through;
+ color: red;
+}
+
+.listContainer{
+ height:400px;
+ width:32%;
+ margin-left: 55%;
+ margin-top: -10%;
+ padding: 1% 0 0 1%;
+}
